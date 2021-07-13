@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package org.omnirom.omnistore
+package ml.amyrom.store
 
 import android.app.*
 import android.content.*
@@ -25,14 +25,14 @@ import android.util.Log
 import androidx.core.app.NotificationCompat
 import androidx.preference.PreferenceManager
 import org.json.JSONObject
-import org.omnirom.omnistore.Constants.ACTION_ADD_DOWNLOAD
-import org.omnirom.omnistore.Constants.ACTION_CANCEL_DOWNLOAD
-import org.omnirom.omnistore.Constants.ACTION_START_INSTALL
-import org.omnirom.omnistore.Constants.EXTRA_DOWNLOAD_ID
-import org.omnirom.omnistore.Constants.EXTRA_DOWNLOAD_PKG
-import org.omnirom.omnistore.Constants.NOTIFICATION_CHANNEL_PROGRESS
-import org.omnirom.omnistore.Constants.PREF_CURRENT_DOWNLOADS
-import org.omnirom.omnistore.Constants.PREF_CURRENT_INSTALLS
+import ml.amyrom.store.Constants.ACTION_ADD_DOWNLOAD
+import ml.amyrom.store.Constants.ACTION_CANCEL_DOWNLOAD
+import ml.amyrom.store.Constants.ACTION_START_INSTALL
+import ml.amyrom.store.Constants.EXTRA_DOWNLOAD_ID
+import ml.amyrom.store.Constants.EXTRA_DOWNLOAD_PKG
+import ml.amyrom.store.Constants.NOTIFICATION_CHANNEL_PROGRESS
+import ml.amyrom.store.Constants.PREF_CURRENT_DOWNLOADS
+import ml.amyrom.store.Constants.PREF_CURRENT_INSTALLS
 
 
 class DownloadService : Service() {

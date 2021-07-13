@@ -3,14 +3,14 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    buildToolsVersion '29.0.3'
 
     defaultConfig {
-        applicationId "org.omnirom.omnistore"
+        applicationId "ml.amyrom.store"
         minSdkVersion 27
         targetSdkVersion 29
-        versionCode 28
-        versionName "2.3.8"
+        versionCode 1
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

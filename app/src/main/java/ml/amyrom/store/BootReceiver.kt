@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package org.omnirom.omnistore
+package ml.amyrom.store
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -23,7 +23,7 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.util.Log
 import androidx.preference.PreferenceManager
-import org.omnirom.omnistore.Constants.PREF_CHECK_UPDATES
+import ml.amyrom.store.Constants.PREF_CHECK_UPDATES
 
 class BootReceiver : BroadcastReceiver() {
     private val TAG = "OmniStore:BootReceiver"

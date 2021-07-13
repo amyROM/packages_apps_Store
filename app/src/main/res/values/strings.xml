@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OmniStore</string>
+    <string name="app_name">Store</string>
     <string name="menu_item_settings">Settings</string>
     <string name="menu_item_check">Check</string>
     <string name="title_settings">Settings</string>
@@ -32,8 +32,8 @@
     <string name="notification_updates_line_two">New"</string>
     <string name="app_item_version">Version:</string>
     <string name="dialog_app_info_status">Status:</string>
-    <string name="store_intro_title">Welcome to the OmniStore!</string>
+    <string name="store_intro_title">Welcome to the Store!</string>
     <string name="store_intro">The store applications are provided on an \“as is\” basis without warranties of any kind.</string>
-    <string name="permission_text">Allow installing apps from OmniStore?</string>
+    <string name="permission_text">Allow installing apps from Store?</string>
 
 </resources>

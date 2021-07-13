@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OmniStore</string>
+    <string name="app_name">Store</string>
     <string name="menu_item_settings">Paramètres</string>
     <string name="menu_item_check">Vérifier</string>
     <string name="title_settings">Paramètres</string>
