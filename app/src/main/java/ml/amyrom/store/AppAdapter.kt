@@ -15,13 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package org.omnirom.omnistore
+package ml.amyrom.store
 
 import android.app.AlertDialog
 import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
-import android.content.SharedPreferences
 import android.net.Uri
 import android.provider.Settings
 import android.view.LayoutInflater
@@ -33,9 +32,9 @@ import android.widget.TextView
 import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
-import org.omnirom.omnistore.Constants.PREF_VIEW_GROUPS
-import org.omnirom.omnistore.Constants.TYPE_APP_ITEM
-import org.omnirom.omnistore.Constants.TYPE_SEPARATOR_ITEM
+import ml.amyrom.store.Constants.PREF_VIEW_GROUPS
+import ml.amyrom.store.Constants.TYPE_APP_ITEM
+import ml.amyrom.store.Constants.TYPE_SEPARATOR_ITEM
 
 
 class AppAdapter(val items: ArrayList<ListItem>, val context: Context) :

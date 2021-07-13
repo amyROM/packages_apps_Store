@@ -1,4 +1,4 @@
-package org.omnirom.omnistore
+package ml.amyrom.store
 
 import org.junit.Test
 

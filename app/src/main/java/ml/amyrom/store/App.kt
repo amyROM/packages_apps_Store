@@ -15,15 +15,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package org.omnirom.omnistore
+package ml.amyrom.store
 
 import android.app.Application
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
 
-import org.omnirom.omnistore.Constants.NOTIFICATION_CHANNEL_PROGRESS
-import org.omnirom.omnistore.Constants.NOTIFICATION_CHANNEL_UPDATE
+import ml.amyrom.store.Constants.NOTIFICATION_CHANNEL_PROGRESS
+import ml.amyrom.store.Constants.NOTIFICATION_CHANNEL_UPDATE
 
 
 class App : Application() {

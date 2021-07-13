@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OmniStore</string>
+    <string name="app_name">Store</string>
     <string name="menu_item_settings">Impostazioni</string>
     <string name="menu_item_check">Verifica</string>
     <string name="title_settings">Impostazioni</string>
@@ -31,7 +31,7 @@
     <string name="notification_updates_line_two">Nuovo\"</string>
     <string name="app_item_version">Versione:</string>
     <string name="dialog_app_info_status">Stato:</string>
-    <string name="store_intro_title">Benvenuto all\'OmniStore!</string>
+    <string name="store_intro_title">Benvenuto all\'Store!</string>
     <string name="store_intro">Le applicazioni dello store sono fornite \"come sono\" senza garanzie di ogni tipo.</string>
-    <string name="permission_text">Consentire l\'installazione di app dall\'OmniStore?</string>
+    <string name="permission_text">Consentire l\'installazione di app dall\'Store?</string>
 </resources>

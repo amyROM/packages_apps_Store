@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package org.omnirom.omnistore
+package ml.amyrom.store
 
 import android.content.Context
 import android.net.Uri
@@ -35,15 +35,15 @@ object Constants {
     const val EXTRA_DOWNLOAD_ID = "id"
     const val EXTRA_DOWNLOAD_PKG = "pkg"
 
-    const val NOTIFICATION_CHANNEL_UPDATE = "org.omnirom.omnistore.notification.updates"
-    const val NOTIFICATION_CHANNEL_PROGRESS = "org.omnirom.omnistore.notification.progress"
+    const val NOTIFICATION_CHANNEL_UPDATE = "ml.amyrom.store.notification.updates"
+    const val NOTIFICATION_CHANNEL_PROGRESS = "ml.amyrom.store.notification.progress"
 
     const val TYPE_APP_ITEM = 0
     const val TYPE_SEPARATOR_ITEM = 1
 
     private fun getAppsBaseUrl(context: Context): String {
         var s: String? = Settings.System.getString(context.contentResolver, "store_base_url")
-            ?: return "https://dl.omnirom.org/"
+            ?: return "https://amyrom.ml/"
         return s!!
     }
 

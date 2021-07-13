@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OmniStore</string>
+    <string name="app_name">Store</string>
     <string name="menu_item_settings">Nastavení</string>
     <string name="menu_item_check">Zkontrolovat</string>
     <string name="title_settings">Nastavení</string>
@@ -31,7 +31,7 @@
     <string name="notification_updates_line_two">Nová</string>
     <string name="app_item_version">Verze: </string>
     <string name="dialog_app_info_status">Stav:</string>
-    <string name="store_intro_title">Vítejte v OmniStore!</string>
+    <string name="store_intro_title">Vítejte v Store!</string>
     <string name="store_intro">Aplikace v obchodě jsou poskytovány \“tak, jak jsou\” bez jakýchkoli záruk.</string>
-    <string name="permission_text">Povolit instalaci aplikací z OmniStore?</string>
+    <string name="permission_text">Povolit instalaci aplikací z Store?</string>
 </resources>

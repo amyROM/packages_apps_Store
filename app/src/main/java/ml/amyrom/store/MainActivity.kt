@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package org.omnirom.omnistore
+package ml.amyrom.store
 
 import android.Manifest
 import android.app.AlertDialog
@@ -24,7 +24,6 @@ import android.content.*
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
-import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
@@ -36,15 +35,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import org.json.JSONObject
-import org.omnirom.omnistore.Constants.ACTION_ADD_DOWNLOAD
-import org.omnirom.omnistore.Constants.ACTION_START_INSTALL
-import org.omnirom.omnistore.Constants.PREF_CHECK_UPDATES
-import org.omnirom.omnistore.Constants.PREF_CURRENT_APPS
-import org.omnirom.omnistore.Constants.PREF_CURRENT_DOWNLOADS
-import org.omnirom.omnistore.Constants.PREF_CURRENT_INSTALLS
-import org.omnirom.omnistore.Constants.PREF_SHOW_INTRO
-import org.omnirom.omnistore.Constants.PREF_VIEW_GROUPS
-import org.omnirom.omnistore.NetworkUtils.NetworkTaskCallback
+import ml.amyrom.store.Constants.ACTION_ADD_DOWNLOAD
+import ml.amyrom.store.Constants.ACTION_START_INSTALL
+import ml.amyrom.store.Constants.PREF_CHECK_UPDATES
+import ml.amyrom.store.Constants.PREF_CURRENT_APPS
+import ml.amyrom.store.Constants.PREF_CURRENT_DOWNLOADS
+import ml.amyrom.store.Constants.PREF_CURRENT_INSTALLS
+import ml.amyrom.store.Constants.PREF_SHOW_INTRO
+import ml.amyrom.store.Constants.PREF_VIEW_GROUPS
+import ml.amyrom.store.NetworkUtils.NetworkTaskCallback
 import java.io.File
 
 

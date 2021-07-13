@@ -15,16 +15,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package org.omnirom.omnistore
+package ml.amyrom.store
 
-class SeparatorItem(val separatorTitle: String) : ListItem {
-    private val TAG = "OmniStore:SeparatorItem"
-
-    override fun title(): String {
-        return separatorTitle
-    }
-
-    override fun sortOrder(): Int {
-        return -1
-    }
+interface ListItem {
+    fun title(): String
+    fun sortOrder(): Int
 }

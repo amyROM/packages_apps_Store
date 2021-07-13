@@ -1,4 +1,4 @@
-package org.omnirom.omnistore;
+package ml.amyrom.store;
 
 import android.content.Intent
 import android.net.Uri

@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package org.omnirom.omnistore
+package ml.amyrom.store
 
 import android.content.Intent
 import android.os.Bundle
@@ -25,7 +25,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreference
-import org.omnirom.omnistore.Constants.PREF_CHECK_UPDATES
+import ml.amyrom.store.Constants.PREF_CHECK_UPDATES
 
 class SettingsActivity : AppCompatActivity() {
 
