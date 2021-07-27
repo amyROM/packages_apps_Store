@@ -43,7 +43,7 @@ object Constants {
 
     private fun getAppsBaseUrl(context: Context): String {
         var s: String? = Settings.System.getString(context.contentResolver, "store_base_url")
-            ?: return "https://amyrom.ml/"
+            ?: return "https://sabina.amyrom.ml/"
         return s!!
     }
 
