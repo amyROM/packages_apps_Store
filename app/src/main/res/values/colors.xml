@@ -4,5 +4,5 @@
     <color name="colorPrimaryDark">#BF5AF2</color>
     <color name="colorAccent">#AF52DE</color>
     <color name="main_background_light">@android:color/white</color>
-    <color name="omni_logo_color">#a1c729</color>
+    <color name="omni_logo_color">#AF52DE</color>
 </resources>
